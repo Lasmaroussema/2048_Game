@@ -314,7 +314,7 @@ function win()
     {
         for (let index1 = 0; index1 < columns; index1++)
         {
-            if (board[index][index1] == 8) {
+            if (board[index][index1] == 2048) {
                 setTimeout(()=>{
                 alert("You win !  ");
                 let a = prompt("would you like to continue ? (press y/n)");
